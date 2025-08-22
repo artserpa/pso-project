@@ -48,7 +48,9 @@ Trajectory plots: for all pairs of dimensions in 2D/3D problems, including conto
 ## Adding New Problems
 
 1 - Create a new function in main.py or add a separate file in the examples/ folder.
+
 2 - Update the parameter bounds accordingly.
+
 3 - Create a new PSO instance and call optimize() and plot_metrics().
 
 ---
@@ -62,8 +64,11 @@ This project is licensed under the MIT License - see the LICENSE
 ## Dependencies
 
 Python >= 3.8
+
 numpy
+
 matplotlib
+
 You can install all dependencies via:
 ```bash
 pip install -r requirements.txt
