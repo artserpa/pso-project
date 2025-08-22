@@ -43,6 +43,9 @@ Trajectory plots: for all pairs of dimensions in 2D/3D problems, including conto
 
 (Include screenshots in plots/ folder and reference them here)
 
+![Convergence](plots/convergence.png)
+![Trajectory x1-x2](plots/trajectory.png)
+
 ---
 
 ## Adding New Problems
