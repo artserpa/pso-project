@@ -25,4 +25,11 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/yourusername/pso-project.git
 cd pso-project
-pip install -r requirements.txt
+pip install -r requirements.txt\
+```
+
+---
+
+## Usage 
+
+Edit main.py to define your own objective function and parameter bounds.
