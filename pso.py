@@ -156,11 +156,10 @@ class PSO:
                 fig.delaxes(axes[k])
 
             plt.tight_layout(rect=[0,0.15,1,1])
-            # legenda das partículas à esquerda
             handles, labels = axes[0].get_legend_handles_labels()
             fig.legend(handles, labels, loc="lower left", bbox_to_anchor=(0.05, 0.05), ncol=3, frameon=False)
-            # colorbar à direita
             cbar_ax = fig.add_axes([0.55, 0.05, 0.4, 0.03])
             cbar = fig.colorbar(cf, cax=cbar_ax, orientation="horizontal")
             cbar.set_label("f(x)")
             plt.show()
+
