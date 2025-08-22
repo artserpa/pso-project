@@ -64,16 +64,3 @@ This project is licensed under the MIT License - see the LICENSE
 
 ---
 
-## Dependencies
-
-Python >= 3.8
-
-numpy
-
-matplotlib
-
-You can install all dependencies via:
-```bash
-pip install -r requirements.txt
-```
-
